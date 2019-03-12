@@ -29,6 +29,6 @@ public class Driver {
 		/*
 		 * Call your spark method, it can be named anything
 		 */
-		new WordCount().execute(context, INPUT_PATH, OUTPUT_PATH, MIN_COUNT);
+		new WordCount().oneLine(context, INPUT_PATH, OUTPUT_PATH, MIN_COUNT);
 	}
 }
